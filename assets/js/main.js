@@ -61,7 +61,6 @@ function saveTasks() {
     let txtTask = task.innerText;
     txtTask = txtTask.replace("Erase", "").trim();
     listOfTasks.push(txtTask);
-    console.log(listOfTasks);
   }
 
   const taskJSON = JSON.stringify(listOfTasks);
